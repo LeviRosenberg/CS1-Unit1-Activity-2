@@ -1,1 +1,43 @@
+body {
+  background: lightgrey;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
 
+#page-title {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #111;
+}
+
+.linename {
+  background-color: #0039A6; 
+  color: white;
+  padding: 10px 15px;
+}
+
+.line-name.express {
+  background-color: #EE352E; 
+  font-weight: bold;
+  font-style: italic;
+}
+
+li {
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.express img {
+  border: 4px solid #EE352E;
+}
+
+.train-line {
+  margin-bottom: 30px;
+  padding: 15px;
+  background-color: #ffffff;
+}
+
+.train-line.express {
+  border: 2px solid #EE352E;
+  border-radius: 8px;
+}
